@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+}
+
+.menu {
+    height: 110px;
+    background-color: #000000;
+    opacity: 0.8;
+    border-bottom: 5px solid #DEB597;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 30px;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #DEB597;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 10px 70px;
+    color: #DEB597;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 60px;
+    margin-top: -13px;
+    margin-left: -32px;
+}
