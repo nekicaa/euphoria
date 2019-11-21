@@ -20,6 +20,12 @@ header{
     border-bottom: #631b14 3px solid;
 }
 
+.logo img {
+    width: 60px;
+    margin-top: -13px;
+    margin-left: -32px;
+}
+
 header a{
     color: #DEB597;
     text-decoration: none;
@@ -61,9 +67,10 @@ header .highlight, header .current a{
     color: #631b14;
 }
 
+/*Ovaj deo je drugaciji za razlicite strane*/
+
 #pocetna{
     min-height: 600px;
-    /*background: url('../img/pocetna.jpg') no-repeat 0 -400px;*/
     background-image: url('../img/pocetna.jpg');
     background-attachment: scroll;
     background-size: cover;
@@ -82,10 +89,4 @@ header .highlight, header .current a{
 
 #pocetna p{
     font-size: 20px;
-}
-
-.logo img {
-    width: 60px;
-    margin-top: -13px;
-    margin-left: -32px;
 }
