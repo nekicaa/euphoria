@@ -1,37 +1,87 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: transparent;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
     background-color: #000000;
+    color: #DEB597;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #631b14 3px solid;
 }
 
-.menu {
-    height: 110px;
-    background-color: #000000;
-    opacity: 0.8;
-    border-bottom: 5px solid #DEB597;
-}
-
-.menu ul {
-    display: inline-flex;
-    margin: 30px;
-}
-
-ul li a:hover{
-    text-decoration: underline;
-}
-
-ul li a{
+header a{
+    color: #DEB597;
     text-decoration: none;
-    color: #DEB597;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
-.menu ul li {
-    list-style: none;
-    margin: 10px 70px;
+header a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo{
+    float: left;
+    margin-top: 5px;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #631b14;
+}
+
+#pocetna{
+    min-height: 600px;
+    /*background: url('../img/pocetna.jpg') no-repeat 0 -400px;*/
+    background-image: url('../img/pocetna.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0 -30px;
+    text-align: center;
     color: #DEB597;
-    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+#pocetna h1{
+    padding-top: 100px;
+    font-size: 55px;
+    color: #631b14;
+    margin-bottom: 10px;
+}
+
+#pocetna p{
+    font-size: 20px;
 }
 
 .logo img {
