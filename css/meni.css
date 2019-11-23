@@ -95,3 +95,41 @@ body .container .pice h4{
     font-size: 30px;
     text-shadow: 1px 1px #000000;
 }
+
+.meni{
+    margin: 20px 20px;
+    width: 100%;
+    min-height: 500px;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.meni .box{
+    position: relative;
+    width: 300px;
+    background-color: #DEB597;
+    opacity: 0.7;
+    margin: 10px 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+
+.meni .box:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+
+
+.meni .box .prikaz{
+    position: relative;
+    padding: 5px;
+}
+
+.meni .box .prikaz ul{
+    list-style: none;
+}
