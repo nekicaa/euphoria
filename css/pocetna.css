@@ -38,6 +38,17 @@ header a:hover{
     color: #ffffff;
 }
 
+header a.active{
+    background-color: #000000;
+    color: #DEB597;
+}
+
+header .icon{
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
 header ul{
     margin: 0;
     padding: 0;
