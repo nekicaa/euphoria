@@ -8,7 +8,7 @@
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -71,7 +71,7 @@ header .highlight, header .current a{
     color: #631b14;
 }
 
-.pice{
+body .container .pice{
     min-height: 600px;
     background-image: url('../img/sto.jpg');
     background-attachment: fixed;
@@ -82,14 +82,14 @@ header .highlight, header .current a{
     text-shadow: 1px 1px #000000;
 }
 
-.pice h2{
+body .container .pice h2{
     color: #631b14;
     padding: 15px;
     align-content: center;
     font-size: 45px;
 }
 
-.pice h4{
+body .container .pice h4{
     color: #631b14;
     padding: 10px;
     font-size: 30px;
