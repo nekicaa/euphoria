@@ -71,6 +71,8 @@ header .highlight, header .current a{
     color: #631b14;
 }
 
+/*Ovo je stil za kartu pica i jelovnik*/
+
 body .container .pice{
     min-height: 600px;
     background-image: url('../img/sto.jpg');
@@ -97,8 +99,7 @@ body .container .pice h4{
 }
 
 .meni{
-    margin: 20px 20px;
-    width: 100%;
+    width: 90%;
     min-height: 500px;
     margin: 10px 50px;
     display: flex;
@@ -109,6 +110,7 @@ body .container .pice h4{
 .meni .box{
     position: relative;
     width: 300px;
+    max-height: 350px;
     background-color: #DEB597;
     opacity: 0.7;
     margin: 10px 50px;
