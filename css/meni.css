@@ -79,6 +79,7 @@ header .highlight, header .current a{
     background-position: center;
     text-align: center;
     color: #000000;
+    text-shadow: 1px 1px #000000;
 }
 
 .pice h2{
