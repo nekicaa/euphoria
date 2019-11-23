@@ -79,7 +79,6 @@ body .container .pice{
     background-position: center;
     text-align: center;
     color: #000000;
-    text-shadow: 1px 1px #000000;
 }
 
 body .container .pice h2{
@@ -87,10 +86,12 @@ body .container .pice h2{
     padding: 15px;
     align-content: center;
     font-size: 45px;
+    text-shadow: 1px 1px #000000;
 }
 
 body .container .pice h4{
     color: #631b14;
     padding: 10px;
     font-size: 30px;
+    text-shadow: 1px 1px #000000;
 }
