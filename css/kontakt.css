@@ -7,7 +7,7 @@
     background-color: transparent;
 }
 
-.container{
+header .container{
     width: 80%;
     margin: auto;
 }
@@ -78,26 +78,67 @@ header .highlight, header .current a{
     color: #631b14;
 }
 
-/*Ovaj deo je drugaciji za razlicite strane*/
-
-#pocetna{
+#glavna{
     min-height: 600px;
-    background-image: url('../img/pocetna.jpg');
+    background-image: url('../img/lokacija.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0 -30px;
+    background-position: 0px -35px;
     text-align: center;
-    color: #DEB597;
-    text-shadow: 1px 1px #000000;
+    color: #000000;
+    text-shadow: 1px 1px #DEB597;
 }
-
-#pocetna h1{
-    padding-top: 100px;
-    font-size: 55px;
+#glavna h2{
+    padding-top: 65px;
+    font-size: 45px;
     color: #631b14;
-    margin-bottom: 10px;
 }
 
-#pocetna p{
+#glavna h5{
     font-size: 20px;
+    font-weight: 550;
+}
+
+.blok{
+    width: 90%;
+    min-height: 500px;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blok .box{
+    position: relative;
+    width: 300px;
+    max-height: 350px;
+    margin: 10px 50px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.blok .box h3{
+    font-size: 20px;
+    color: #631b14;
+    text-shadow: 1px 1px #DEB597;
+
+}
+
+.blok .box img{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: transform 0.5s;
+}
+
+.blok .box img:hover{
+    transform: scale(1.2);
+}
+
+.blok .box p{
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px #631b14;
+    color: #DEB597;
 }
