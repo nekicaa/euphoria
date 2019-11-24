@@ -17,7 +17,9 @@ header{
     color: #DEB597;
     padding-top: 30px;
     min-height: 70px;
+    max-height: 70px;
     border-bottom: #631b14 3px solid;
+    overflow: hidden;
 }
 
 .logo img {
