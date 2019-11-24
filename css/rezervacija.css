@@ -23,12 +23,17 @@ header{
     display: flex;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 .logo img {
     width: 70px;
     margin-top: -13px;
     margin-left: -22px;
+}
+
+nav .icon{
+    display: none;
 }
 
 header a{
@@ -41,17 +46,6 @@ header a{
 header a:hover{
     text-decoration: underline;
     color: #ffffff;
-}
-
-header a.active{
-    background-color: #000000;
-    color: #DEB597;
-}
-
-header .icon{
-    display: none;
-    width: 30px;
-    height: 30px;
 }
 
 header ul{
@@ -83,9 +77,9 @@ header .highlight, header .current a{
     color: #631b14;
 }
 
-#glavna{
+#glavniDeo{
     min-height: 600px;
-    background-image: url('../img/lokacija.jpg');
+    background-image: url('../img/enterijer.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 0px -35px;
@@ -93,57 +87,50 @@ header .highlight, header .current a{
     color: #000000;
     text-shadow: 1px 1px #DEB597;
 }
-#glavna h2{
+#glavniDeo h2{
     padding-top: 65px;
     font-size: 45px;
     color: #631b14;
 }
 
-#glavna h5{
+#glavniDeo h4{
+    padding-top: 10px;
     font-size: 20px;
-    font-weight: 550;
-}
-
-.blok{
-    width: 90%;
-    min-height: 500px;
-    margin: 10px 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.blok .box{
-    position: relative;
-    width: 300px;
-    max-height: 350px;
-    margin: 10px 50px;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.blok .box h3{
-    font-size: 20px;
-    color: #631b14;
-    text-shadow: 1px 1px #DEB597;
-
-}
-
-.blok .box img{
-    height: 50px;
-    width: 50px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    transition: transform 0.5s;
-}
-
-.blok .box img:hover{
-    transform: scale(1.2);
-}
-
-.blok .box p{
-    font-size: 15px;
-    font-weight: bold;
-    text-shadow: 1px 1px #631b14;
     color: #DEB597;
+    text-shadow: 1px 1px #000000;
+}
+
+#glavniDeo .container{
+    display: grid;
+    align-items: center;
+}
+
+#glavniDeo .con1{
+    grid-column: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    word-wrap: normal;
+}
+
+#glavniDeo .con1 h4{
+    color: #000000;
+    text-shadow: #631b14;
+}
+
+#forma{
+    background-color: #DEB597;
+}
+
+#glavniDeo .con2{
+    grid-column: 2;
+    margin-top: 20px;
+}
+
+#glavniDeo img{
+    height: 350px;
+    width: 500px;
+    padding: 20px;
+    border: #631b14;
+    border-style: solid;
+    border-width: 5px;
 }

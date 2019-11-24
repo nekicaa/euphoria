@@ -20,6 +20,9 @@ header{
     max-height: 70px;
     border-bottom: #631b14 3px solid;
     overflow: hidden;
+    display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .logo img {

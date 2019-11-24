@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EUPHORIA Bar&Grill | Rezervacija</title>
+    <link rel="stylesheet" href="css/rezervacija.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="pocetna.html">pocetna</a></li>
+                    <li><a href="meni.html">meni</a></li>
+                    <li><a href="dostava.html">dostava</a> </li>
+                    <li class="current"><a href="rezervacija.html">rezervacija</a> </li>
+                    <li><a href="registracija.html">registracija</a> </li>
+                    <li><a href="kontakt.html">kontakt</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Glavni content-->
+    <div id="glavniDeo">
+        <h2>Rezervišite svoje mesto!</h2>
+        <div class="container">
+            <div class="con1" id="forma">
+                <h4>Forma za rezervaciju</h4>
+                <form action="">
+                    <label for="checkbox">Odaberite sto koji biste rezervisali:</label><br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 1.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 2.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 3.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 4.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 5.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 6.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 7.<br>
+                    <input type="checkbox" name="broj_stola" value="prvi">Sto broj 8.<br>
+                    <label for="text">Za koliko osoba?</label>
+                    <input type="text" name="broj_osoba"><br>
+                    <label for="datetime-local">Odaberite datum i vreme:</label>
+                    <input type="datetime-local" name="vreme"><br>
+                    <label for="text">Na koje ime je rezervacija?</label>
+                    <input type="text" name="imerez"><br>
+                    <label for="text">Kontakt osobe koja rezerviše*:</label>
+                    <input type="text" name="kontakt"><br>
+                    <input type="submit" value="Rezerviši"><br>
+                    <p>*Na ovaj broj će vam biti javljeno da li je rezervacija bila uspešna</p>
+                </form>
+            </div>
+            <div class="con2">
+                <h4>Na slici možete videti raspored stolova u našem lokalu</h4>
+                <img src="img/plan_stolova.jpg" alt="plan_stolova">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
