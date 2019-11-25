@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EUPHORIA Bar&Grill | Pocetna</title>
+    <link rel="stylesheet" href="css/registracija.css">
+    <script src="js/registracija.js"></script>
+</head>
+<body>
+    <!--Header se odnosi na meni bar i treba da ga ima na svakoj stranici-->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <nav class="nav">
+                <ul class="lista">
+                    <li><a href="pocetna.html">pocetna</a></li>
+                    <li><a href="meni.html">meni</a></li>
+                    <li><a href="dostava.html">dostava</a> </li>
+                    <li><a href="rezervacija.html">rezervacija</a> </li>
+                    <li class="current"><a href="registracija.html">registracija</a> </li>
+                    <li><a href="kontakt.html">kontakt</a> </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <!--Ovaj deo je drugaciji za svaku stranu-->
+    <div id="login-box">
+        <div class="left">
+          <h1>Registrujte se</h1>
+          <h6>Registracija je potpuno besplatna.</h6>
+          
+          <input type="text" name="username" placeholder="Korisničko ime" />
+          <input type="text" name="email" placeholder="E-mail adresa" />
+          <input type="password" name="password" placeholder="Lozinka" />
+          <input type="password" name="password2" placeholder="Potvrdi lozinku" />
+          
+          <input type="submit" name="signup_submit" value="Potvrdi" />
+        </div>
+        
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+          <button class="social-signin facebook">Registruj se preko Facebook-a</button>
+          <button class="social-signin twitter">Registruj se preko Twitter-a</button>
+          <button class="social-signin google">Registruj se preko Google-a</button>
+        </div>
+        <div class="or">ILI</div>
+      </div>
+</body>
+</html>
