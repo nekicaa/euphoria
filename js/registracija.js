@@ -1,10 +1,9 @@
 function validation() {
-    var user = document.getElementsByName('fname').value;
-    var userl = document.getElementByName('lname').value;
+    var user = document.getElementsByName('username').value;
     var email = document.getElementByName('email').value;
-    var pass = document.getElementByName('pass').value;
-    var cpass = document.getElementByName('cpass').value;
-    var phone = document.getElementByName('phone').value;
+    var pass = document.getElementByName('password').value;
+    var cpass = document.getElementByName('password2').value;
+    
 
     if (user == "") {
         document.getElementByName('username').innerHTML = "* Mesto za ime je prazno";
