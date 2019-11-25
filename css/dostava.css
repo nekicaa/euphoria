@@ -18,6 +18,9 @@ header{
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #631b14 3px solid;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 
 .logo img {
@@ -79,6 +82,7 @@ body .container .dostava{
     background-position: center;
     text-align: center;
     color: #000000;
+    z-index: 2;
 }
 
 body .container .dostava h2{
